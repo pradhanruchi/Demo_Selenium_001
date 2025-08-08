@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-28T01:35:26 IST" name="Default suite" finished-at="2025-07-28T01:37:57 IST" duration-ms="151402">
+    <groups>
+    </groups>
+    <test started-at="2025-07-28T01:35:26 IST" name="Default test" finished-at="2025-07-28T01:37:57 IST" duration-ms="151402">
+      <class name="seleniumTest.PreTestSelenium">
+        <test-method signature="launchpage()[pri:0, instance:seleniumTest.PreTestSelenium@40a4337a]" started-at="2025-07-28T01:35:26 IST" name="launchpage" finished-at="2025-07-28T01:37:57 IST" duration-ms="151360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchpage -->
+      </class> <!-- seleniumTest.PreTestSelenium -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
