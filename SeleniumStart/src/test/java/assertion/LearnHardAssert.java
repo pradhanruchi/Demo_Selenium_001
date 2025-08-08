@@ -32,6 +32,7 @@ public class LearnHardAssert {
 
 		Assert.assertEquals(driver.getTitle(), "Demo Web Shop", "Home page is not displayed");
 		Reporter.log("Home page is not displayed", true);
+		Reporter.log("nivedita", true);
 	}
 
 }
