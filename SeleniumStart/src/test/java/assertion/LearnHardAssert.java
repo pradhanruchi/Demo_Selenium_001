@@ -22,9 +22,9 @@ public class LearnHardAssert {
 		Assert.assertEquals(driver.getTitle(), "Demo Web Shop. Log", "Login page is not displayed");
 		Reporter.log("Log in page is displayed", true);
 		
-		//boolean loginstatus = driver.findElement(By.xpath("//input[@value='Log in']")).isDisplayed();
-       // Assert.assertEquals(loginstatus, true,"Login page is not dispalyed");
-       //   Reporter.log("Login page is displayed ",true);
+		boolean loginstatus = driver.findElement(By.xpath("//input[@value='Log in']")).isDisplayed();
+        Assert.assertEquals(loginstatus, true,"Login page is not dispalyed");
+        Reporter.log("Login page is displayed ",true);
         
 		driver.findElement(By.id("Email")).sendKeys("virat18@gmail.com");
 		driver.findElement(By.id("Password")).sendKeys("virat@rcb");
@@ -35,3 +35,4 @@ public class LearnHardAssert {
 	}
 
 }
+
